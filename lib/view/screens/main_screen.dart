@@ -18,12 +18,15 @@ class _MainScreenState extends State<MainScreen> {
   @override
   void initState() {
     super.initState();
-     BlocProvider.of<PostCubit>(context).emitGetAllUsers(posts);
+    BlocProvider.of<PostCubit>(context).emitGetAllUsers(posts);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Text('BRG Task'),
+      ),
       body: BlocBuilder<PostCubit, PostState>(
         builder: (context, state) {
           if (state is GetAllPosts) {
