@@ -24,7 +24,7 @@ class _MainScreenState extends State<MainScreen> {
       controller: searchTextController,
       cursorColor: Colors.black,
       decoration: const InputDecoration(
-        hintText: 'Search for posts...',
+        hintText: 'Search for post...',
         border: InputBorder.none,
         hintStyle: TextStyle(
           color: Colors.white,
@@ -102,7 +102,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget buildAppBarTitle() {
     return const Text(
       'Main Screen',
-      style: TextStyle(color: Colors.white, fontSize: 25),
+      style: TextStyle(color: Colors.white),
     );
   }
 
