@@ -1,4 +1,4 @@
-import 'package:brg_task/data/model/post.dart';
+import '../model/post.dart';
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 

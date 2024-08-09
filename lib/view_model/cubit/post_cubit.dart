@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:brg_task/data/repo/post_repo.dart';
+import '../../data/repo/post_repo.dart';
 import 'package:meta/meta.dart';
 
 import '../../data/model/post.dart';

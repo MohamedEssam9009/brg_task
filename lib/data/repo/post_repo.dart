@@ -1,5 +1,5 @@
-import 'package:brg_task/data/model/post.dart';
-import 'package:brg_task/data/web_services/web_services.dart';
+import '../model/post.dart';
+import '../web_services/web_services.dart';
 
 class PostRepo {
   final WebServices webServices;

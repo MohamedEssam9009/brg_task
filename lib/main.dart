@@ -1,6 +1,6 @@
-import 'package:brg_task/core/di/injection.dart';
-import 'package:brg_task/view/screens/main_screen.dart';
-import 'package:brg_task/view_model/cubit/post_cubit.dart';
+import 'core/di/injection.dart';
+import 'view/screens/main_screen.dart';
+import 'view_model/cubit/post_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

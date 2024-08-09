@@ -1,6 +1,6 @@
-import 'package:brg_task/data/repo/post_repo.dart';
-import 'package:brg_task/data/web_services/web_services.dart';
-import 'package:brg_task/view_model/cubit/post_cubit.dart';
+import '../../data/repo/post_repo.dart';
+import '../../data/web_services/web_services.dart';
+import '../../view_model/cubit/post_cubit.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
 
